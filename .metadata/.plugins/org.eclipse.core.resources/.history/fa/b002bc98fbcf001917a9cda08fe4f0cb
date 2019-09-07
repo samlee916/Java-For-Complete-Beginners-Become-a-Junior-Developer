@@ -1,0 +1,14 @@
+//A Java example about arrays
+public class JavaExample5 {
+
+	public static void main(String[] args) {
+		int[] ages = {10,5,12,20,18};
+		System.out.println("Age on index 0 is " + ages[0]);
+		int onIndex2 = ages[2];
+		System.out.println("Age on index 2 is " + onIndex2);
+		ages[2] = ages[2] + 1;
+		System.out.println("Age on index 2 is now " + ages[2]);
+
+	}
+
+}

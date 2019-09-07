@@ -1,0 +1,18 @@
+
+public class JavaExample9 {
+
+	public static void main(String[] args) {
+		
+
+	}
+	//here is the function
+	public static int squared(int x) {
+		int y = x * x;
+		return y;
+	}
+	public static void printThis(int number) {}
+	public static boolean isBigger(int first, int second) {
+		return false;
+		}
+	public static void printEnOfProgram() {}
+}

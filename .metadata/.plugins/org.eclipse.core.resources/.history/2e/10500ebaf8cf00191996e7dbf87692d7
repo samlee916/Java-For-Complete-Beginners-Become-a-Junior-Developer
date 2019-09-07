@@ -1,0 +1,10 @@
+//A Java example about arrays
+public class JavaExample5 {
+
+	public static void main(String[] args) {
+		int[] ages = {10,5,12,20,18};
+		System.out.println("Age on index 0 is " ages[0]);
+
+	}
+
+}

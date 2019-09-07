@@ -1,0 +1,15 @@
+//A Java example about while loops
+public class JavaExample7 {
+
+	public static void main(String[] args) {
+		int temp = 0;
+		
+		//1:
+		while(temp < 5 ) {
+			temp++;
+		}
+		
+
+	}
+
+}

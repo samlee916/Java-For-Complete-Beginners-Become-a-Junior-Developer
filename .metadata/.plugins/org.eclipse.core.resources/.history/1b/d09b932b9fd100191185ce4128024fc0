@@ -1,0 +1,27 @@
+
+public class JavaExample9 {
+
+	public static void main(String[] args) {
+		int temp = squared(10);
+		temp = squared(-5);
+		printThis(temp);
+		printThis(10+15);
+		boolean result = isBigger(1,5);
+		if(isBigger(10,8)) {
+			System.out.println("10 is bigger than 8");
+		}
+		temp = 2;
+	}
+	//here are the functions
+	public static int squared(int x) {
+		int y = x * x;
+		return y;
+	}
+	public static void printThis(int number) {
+		System.out.println("Number: " + number);
+	}
+	public static boolean isBigger(int first, int second) {
+		
+		}
+	public static void printEnOfProgram() {}
+}
